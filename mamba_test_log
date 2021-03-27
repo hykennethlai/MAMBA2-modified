@@ -397,3 +397,1095 @@
 2019-09-25 18:14:41,153 - root - INFO - 4 matches added in block
 2019-09-25 18:14:41,427 - root - INFO - 7 clerical review candidates added
 2019-09-25 18:14:41,454 - root - INFO - 7 matches added in block
+2021-03-27 12:49:38,367 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 12:50:23,305 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 12:50:23,812 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 12:51:03,414 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 12:51:03,914 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 12:52:11,558 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 12:52:12,055 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 12:52:12,055 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 12:52:12,055 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 12:52:12,055 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 12:52:12,055 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 12:52:12,055 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 12:52:12,055 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 12:52:12,055 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 12:52:12,055 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 12:52:12,055 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 12:52:12,055 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 12:52:12,055 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 12:52:12,055 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 12:52:12,055 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 12:52:12,055 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 12:52:12,055 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 12:52:12,055 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 12:52:12,055 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 12:52:12,055 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 12:52:12,055 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 12:52:12,056 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 12:52:12,056 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 12:52:12,056 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 12:52:12,056 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 12:52:31,133 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 12:52:31,133 - root - INFO - ##########0.33 Minutes: Run Random Forest##########
+2021-03-27 12:52:31,133 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=log2
+ Max Depth=14
+2021-03-27 12:52:31,134 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 12:52:35,172 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 12:52:35,173 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 12:52:35,174 - root - INFO - ### Starting Block zip5
+2021-03-27 12:52:35,175 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 12:52:35,176 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 12:52:35,195 - root - INFO - 0% complete with block
+2021-03-27 12:52:35,196 - root - INFO - 1% complete with block
+2021-03-27 12:52:35,197 - root - INFO - 2% complete with block
+2021-03-27 12:52:35,210 - root - INFO - 3% complete with block
+2021-03-27 12:52:35,212 - root - INFO - 4% complete with block
+2021-03-27 12:52:35,213 - root - INFO - 5% complete with block
+2021-03-27 12:52:35,218 - root - INFO - 6% complete with block
+2021-03-27 12:52:35,220 - root - INFO - 7% complete with block
+2021-03-27 12:52:35,221 - root - INFO - 8% complete with block
+2021-03-27 12:52:35,225 - root - INFO - 9% complete with block
+2021-03-27 13:02:37,162 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:02:38,088 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:02:38,089 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:02:38,089 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:02:38,089 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:02:38,089 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:02:38,089 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:02:38,089 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:02:38,089 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:02:38,089 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:02:38,089 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:02:38,089 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:02:38,089 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:02:38,090 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:02:38,090 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:02:38,090 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:02:38,090 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:02:38,090 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:02:38,090 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:02:38,090 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:02:38,090 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:02:38,090 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:02:38,090 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:02:38,090 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:02:38,090 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:03:17,785 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 13:03:17,785 - root - INFO - ##########0.68 Minutes: Run Random Forest##########
+2021-03-27 13:03:17,785 - root - INFO - Random Forest Params:
+ Number of Trees=4
+ Max Features=sqrt
+ Max Depth=11
+2021-03-27 13:03:17,791 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 13:03:25,817 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 13:03:25,818 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 13:03:25,821 - root - INFO - ### Starting Block zip5
+2021-03-27 13:03:25,822 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:03:25,824 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:03:25,977 - root - INFO - 0% complete with block
+2021-03-27 13:03:25,979 - root - INFO - 1% complete with block
+2021-03-27 13:03:25,983 - root - INFO - 2% complete with block
+2021-03-27 13:20:16,929 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:20:53,524 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:20:53,525 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:20:53,525 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:20:53,525 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:20:53,525 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:20:53,525 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:20:53,525 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:20:53,525 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:20:53,525 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:20:53,525 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:20:53,526 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:20:53,526 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:20:53,526 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:20:53,526 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:20:53,526 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:20:53,526 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:20:53,526 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:20:53,526 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:20:53,526 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:20:53,526 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:20:53,526 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:20:53,527 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:20:53,527 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:20:53,528 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:21:54,529 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:22:41,820 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:22:41,821 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:22:41,821 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:22:41,821 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:22:41,821 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:22:41,821 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:22:41,821 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:22:41,822 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:22:41,822 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:22:41,822 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:22:41,822 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:22:41,822 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:22:41,822 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:22:41,822 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:22:41,822 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:22:41,822 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:22:41,822 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:22:41,822 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:22:41,822 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:22:41,822 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:22:41,822 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:22:41,823 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:22:41,823 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:22:41,824 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:23:17,402 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:23:22,538 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:23:22,539 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:23:22,539 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:23:22,539 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:23:22,539 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:23:22,539 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:23:22,539 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:23:22,539 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:23:22,539 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:23:22,539 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:23:22,539 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:23:22,539 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:23:22,539 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:23:22,540 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:23:22,540 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:23:22,540 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:23:22,540 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:23:22,540 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:23:22,540 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:23:22,540 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:23:22,540 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:23:22,540 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:23:22,540 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:23:22,541 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:26:25,550 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:26:43,746 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:26:43,747 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:26:43,747 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:26:43,747 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:26:43,747 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:26:43,747 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:26:43,747 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:26:43,747 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:26:43,747 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:26:43,747 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:26:43,747 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:26:43,747 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:26:43,748 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:26:43,748 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:26:43,748 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:26:43,748 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:26:43,748 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:26:43,748 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:26:43,748 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:26:43,748 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:26:43,748 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:26:43,748 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:26:43,748 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:26:43,749 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:28:05,937 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 13:28:26,075 - root - INFO - ##########2.01 Minutes: Run Random Forest##########
+2021-03-27 13:28:26,075 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=sqrt
+ Max Depth=5
+2021-03-27 13:28:29,973 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 13:29:25,505 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:29:26,012 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:29:26,013 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:29:26,013 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:29:26,013 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:29:26,013 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:29:26,013 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:29:26,013 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:29:26,013 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:29:26,013 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:29:26,013 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:29:26,013 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:29:26,013 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:29:26,013 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:29:26,013 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:29:26,013 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:29:26,013 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:29:26,013 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:29:26,013 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:29:26,013 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:29:26,013 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:29:26,013 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:29:26,013 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:29:26,013 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:29:26,013 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:29:45,875 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 13:29:45,876 - root - INFO - ##########0.34 Minutes: Run Random Forest##########
+2021-03-27 13:29:45,876 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=sqrt
+ Max Depth=18
+2021-03-27 13:29:45,877 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 13:29:50,114 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 13:29:50,114 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 13:29:50,116 - root - INFO - ### Starting Block zip5
+2021-03-27 13:29:50,116 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:29:50,117 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:29:50,137 - root - INFO - 0% complete with block
+2021-03-27 13:29:50,140 - root - INFO - 1% complete with block
+2021-03-27 13:29:50,140 - root - INFO - 2% complete with block
+2021-03-27 13:29:50,154 - root - INFO - 3% complete with block
+2021-03-27 13:29:50,157 - root - INFO - 4% complete with block
+2021-03-27 13:29:50,158 - root - INFO - 5% complete with block
+2021-03-27 13:29:50,162 - root - INFO - 6% complete with block
+2021-03-27 13:29:50,167 - root - INFO - 7% complete with block
+2021-03-27 13:29:50,168 - root - INFO - 8% complete with block
+2021-03-27 13:29:50,169 - root - INFO - 9% complete with block
+2021-03-27 13:30:52,921 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:30:53,859 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:30:53,859 - root - INFO - address_jaro: VIF = 39.150208028297676
+2021-03-27 13:30:53,859 - root - INFO - address_bagdist: VIF = 41.0096982872775
+2021-03-27 13:30:53,859 - root - INFO - address_seqmatch: VIF = 49.260442766176354
+2021-03-27 13:30:53,859 - root - INFO - address_qgram2: VIF = 375.0288796991923
+2021-03-27 13:30:53,859 - root - INFO - address_qgram3: VIF = 377.2168940348269
+2021-03-27 13:30:53,859 - root - INFO - address_posqgram3: VIF = 103.59088589553348
+2021-03-27 13:30:53,860 - root - INFO - address_editdist: VIF = 91.58877555104867
+2021-03-27 13:30:53,860 - root - INFO - address_lcs2: VIF = 156.88907277169207
+2021-03-27 13:30:53,860 - root - INFO - address_lcs3: VIF = 12003.489519088102
+2021-03-27 13:30:53,860 - root - INFO - address_charhistogram: VIF = 17.028003269167144
+2021-03-27 13:30:53,860 - root - INFO - address_swdist: VIF = 11497.370525459513
+2021-03-27 13:30:53,860 - root - INFO - name_jaro: VIF = 28.780297938786266
+2021-03-27 13:30:53,860 - root - INFO - name_bagdist: VIF = 16.620999789477896
+2021-03-27 13:30:53,860 - root - INFO - name_seqmatch: VIF = 86.16615882788591
+2021-03-27 13:30:53,860 - root - INFO - name_qgram2: VIF = 474.90378154358297
+2021-03-27 13:30:53,860 - root - INFO - name_qgram3: VIF = 337.4281003970858
+2021-03-27 13:30:53,860 - root - INFO - name_posqgram3: VIF = 82.69212563522849
+2021-03-27 13:30:53,860 - root - INFO - name_editdist: VIF = 94.42248657771553
+2021-03-27 13:30:53,860 - root - INFO - name_lcs2: VIF = 179.20392901801787
+2021-03-27 13:30:53,860 - root - INFO - name_lcs3: VIF = 590.5380038980228
+2021-03-27 13:30:53,860 - root - INFO - name_charhistogram: VIF = 13.820584400837209
+2021-03-27 13:30:53,860 - root - INFO - name_swdist: VIF = 637.9329485213121
+2021-03-27 13:30:53,861 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:31:34,448 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 13:31:34,449 - root - INFO - ##########0.69 Minutes: Run Random Forest##########
+2021-03-27 13:31:34,449 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=sqrt
+ Max Depth=5
+2021-03-27 13:31:34,451 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 13:31:42,699 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 13:31:42,699 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 13:31:42,703 - root - INFO - ### Starting Block zip5
+2021-03-27 13:31:42,703 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:31:42,706 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:31:42,835 - root - INFO - 0% complete with block
+2021-03-27 13:31:42,842 - root - INFO - 1% complete with block
+2021-03-27 13:31:42,853 - root - INFO - 2% complete with block
+2021-03-27 13:35:21,853 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:35:49,796 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:35:57,978 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:44:33,127 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:45:51,385 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:45:52,288 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:45:52,289 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 13:45:52,289 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 13:45:52,289 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 13:45:52,289 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 13:45:52,289 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 13:45:52,289 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 13:45:52,289 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 13:45:52,289 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 13:45:52,289 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 13:45:52,289 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 13:45:52,289 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 13:45:52,289 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 13:45:52,289 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 13:45:52,290 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 13:45:52,290 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 13:45:52,290 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 13:45:52,290 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 13:45:52,290 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 13:45:52,290 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 13:45:52,290 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 13:45:52,290 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 13:45:52,290 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 13:45:52,290 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 13:46:32,883 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 13:46:32,884 - root - INFO - ##########0.69 Minutes: Run Random Forest##########
+2021-03-27 13:46:32,884 - root - INFO - Random Forest Params:
+ Number of Trees=9
+ Max Features=log2
+ Max Depth=18
+2021-03-27 13:46:32,896 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 13:46:41,226 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 13:46:41,227 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 13:46:41,230 - root - INFO - ### Starting Block zip5
+2021-03-27 13:46:41,231 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:46:41,233 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:46:41,360 - root - INFO - 0% complete with block
+2021-03-27 13:46:41,369 - root - INFO - 1% complete with block
+2021-03-27 13:46:41,376 - root - INFO - 2% complete with block
+2021-03-27 13:53:46,824 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:53:47,719 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:53:47,720 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 13:53:47,720 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 13:53:47,720 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 13:53:47,720 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 13:53:47,720 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 13:53:47,720 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 13:53:47,720 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 13:53:47,720 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 13:53:47,721 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 13:53:47,721 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 13:53:47,721 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 13:53:47,721 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 13:53:47,721 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 13:53:47,721 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 13:53:47,721 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 13:53:47,721 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 13:53:47,721 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 13:53:47,721 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 13:53:47,721 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 13:53:47,721 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 13:53:47,721 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 13:53:47,721 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 13:55:10,034 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:55:10,932 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:55:10,933 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 13:55:10,933 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 13:55:10,933 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 13:55:10,933 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 13:55:10,933 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 13:55:10,933 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 13:55:10,933 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 13:55:10,933 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 13:55:10,933 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 13:55:10,933 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 13:55:10,933 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 13:55:10,933 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 13:55:10,933 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 13:55:10,934 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 13:55:10,934 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 13:55:10,934 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 13:55:10,934 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 13:55:10,934 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 13:55:10,934 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 13:55:10,934 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 13:55:10,934 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 13:55:10,934 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 13:55:10,937 - root - INFO - ### Starting Block zip5
+2021-03-27 13:55:10,938 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:55:10,940 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:55:11,067 - root - INFO - 0% complete with block
+2021-03-27 13:55:11,073 - root - INFO - 1% complete with block
+2021-03-27 13:55:11,080 - root - INFO - 2% complete with block
+2021-03-27 13:56:56,751 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:56:57,652 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:56:57,652 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 13:56:57,652 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 13:56:57,652 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 13:56:57,652 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 13:56:57,652 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 13:56:57,652 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 13:56:57,653 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 13:56:57,653 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 13:56:57,653 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 13:56:57,653 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 13:56:57,653 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 13:56:57,653 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 13:56:57,653 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 13:56:57,653 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 13:56:57,653 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 13:56:57,653 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 13:56:57,653 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 13:56:57,653 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 13:56:57,653 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 13:56:57,653 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 13:56:57,653 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 13:56:57,654 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 13:56:57,657 - root - INFO - ### Starting Block zip5
+2021-03-27 13:56:57,657 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:56:57,660 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:56:57,786 - root - INFO - 0% complete with block
+2021-03-27 13:56:57,791 - root - INFO - 1% complete with block
+2021-03-27 13:56:57,800 - root - INFO - 2% complete with block
+2021-03-27 13:57:34,995 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 13:57:35,480 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 13:57:35,480 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 13:57:35,480 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 13:57:35,480 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 13:57:35,480 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 13:57:35,480 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 13:57:35,480 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 13:57:35,480 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 13:57:35,480 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 13:57:35,480 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 13:57:35,480 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 13:57:35,480 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 13:57:35,480 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 13:57:35,480 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 13:57:35,480 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 13:57:35,480 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 13:57:35,480 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 13:57:35,480 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 13:57:35,480 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 13:57:35,480 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 13:57:35,480 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 13:57:35,480 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 13:57:35,480 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 13:57:35,482 - root - INFO - ### Starting Block zip5
+2021-03-27 13:57:35,482 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 13:57:35,483 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 13:57:35,498 - root - INFO - 0% complete with block
+2021-03-27 13:57:35,498 - root - INFO - 1% complete with block
+2021-03-27 13:57:35,499 - root - INFO - 2% complete with block
+2021-03-27 13:57:35,515 - root - INFO - 3% complete with block
+2021-03-27 13:57:35,515 - root - INFO - 4% complete with block
+2021-03-27 13:57:35,516 - root - INFO - 5% complete with block
+2021-03-27 13:57:35,523 - root - INFO - 6% complete with block
+2021-03-27 13:57:35,524 - root - INFO - 7% complete with block
+2021-03-27 13:57:35,525 - root - INFO - 8% complete with block
+2021-03-27 13:57:35,532 - root - INFO - 9% complete with block
+2021-03-27 14:00:11,837 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:00:12,321 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:00:12,321 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:00:12,322 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:00:12,322 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:00:12,322 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:00:12,322 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:00:12,322 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:00:12,322 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:00:12,322 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:00:12,322 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:00:12,322 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:00:12,322 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:00:12,322 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:00:12,322 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:00:12,322 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:00:12,322 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:00:12,322 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:00:12,322 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:00:12,322 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:00:12,322 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:00:12,322 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:00:12,322 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:00:12,322 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:00:12,324 - root - INFO - ### Starting Block zip5
+2021-03-27 14:00:12,324 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:00:12,325 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:00:12,341 - root - INFO - 0% complete with block
+2021-03-27 14:00:12,341 - root - INFO - 1% complete with block
+2021-03-27 14:00:12,342 - root - INFO - 2% complete with block
+2021-03-27 14:00:12,359 - root - INFO - 3% complete with block
+2021-03-27 14:00:12,360 - root - INFO - 4% complete with block
+2021-03-27 14:00:12,360 - root - INFO - 5% complete with block
+2021-03-27 14:00:12,369 - root - INFO - 6% complete with block
+2021-03-27 14:00:12,369 - root - INFO - 7% complete with block
+2021-03-27 14:00:12,369 - root - INFO - 8% complete with block
+2021-03-27 14:00:12,379 - root - INFO - 9% complete with block
+2021-03-27 14:01:58,081 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:01:58,569 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:01:58,569 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:01:58,569 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:01:58,569 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:01:58,569 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:01:58,569 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:01:58,569 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:01:58,569 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:01:58,569 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:01:58,569 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:01:58,569 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:01:58,569 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:01:58,569 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:01:58,569 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:01:58,569 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:01:58,569 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:01:58,569 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:01:58,569 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:01:58,569 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:01:58,569 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:01:58,569 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:01:58,570 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:01:58,570 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:01:58,570 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:02:44,792 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:02:45,276 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:02:45,277 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:02:45,277 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:02:45,277 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:02:45,277 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:02:45,277 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:02:45,277 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:02:45,277 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:02:45,277 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:02:45,277 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:02:45,277 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:02:45,277 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:02:45,277 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:02:45,277 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:02:45,277 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:02:45,277 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:02:45,277 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:02:45,277 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:02:45,277 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:02:45,277 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:02:45,277 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:02:45,277 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:02:45,277 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:02:45,277 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:03:04,804 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 14:03:04,804 - root - INFO - ##########0.34 Minutes: Run Random Forest##########
+2021-03-27 14:03:04,804 - root - INFO - Random Forest Params:
+ Number of Trees=3
+ Max Features=sqrt
+ Max Depth=16
+2021-03-27 14:03:04,806 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:03:09,075 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:03:09,075 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 14:03:09,076 - root - INFO - ### Starting Block zip5
+2021-03-27 14:03:09,077 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:03:09,078 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:03:09,094 - root - INFO - 0% complete with block
+2021-03-27 14:03:09,094 - root - INFO - 1% complete with block
+2021-03-27 14:03:09,094 - root - INFO - 2% complete with block
+2021-03-27 14:03:09,111 - root - INFO - 3% complete with block
+2021-03-27 14:03:09,111 - root - INFO - 4% complete with block
+2021-03-27 14:03:09,113 - root - INFO - 5% complete with block
+2021-03-27 14:03:09,120 - root - INFO - 6% complete with block
+2021-03-27 14:03:09,120 - root - INFO - 7% complete with block
+2021-03-27 14:03:09,122 - root - INFO - 8% complete with block
+2021-03-27 14:03:09,129 - root - INFO - 9% complete with block
+2021-03-27 14:05:30,024 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:05:30,915 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:05:30,916 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:05:30,916 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:05:30,916 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:05:30,916 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:05:30,916 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:05:30,916 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:05:30,916 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:05:30,916 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:05:30,916 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:05:30,916 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:05:30,916 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:05:30,916 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:05:30,916 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:05:30,916 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:05:30,917 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:05:30,917 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:05:30,917 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:05:30,917 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:05:30,917 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:05:30,917 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:05:30,917 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:05:30,917 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:05:30,917 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:06:10,065 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 14:06:10,066 - root - INFO - ##########0.67 Minutes: Run Random Forest##########
+2021-03-27 14:06:10,066 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=log2
+ Max Depth=16
+2021-03-27 14:06:10,068 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:06:18,682 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:06:18,682 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 14:06:18,685 - root - INFO - ### Starting Block zip5
+2021-03-27 14:06:18,686 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:06:18,689 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:06:18,817 - root - INFO - 0% complete with block
+2021-03-27 14:06:18,823 - root - INFO - 1% complete with block
+2021-03-27 14:06:18,830 - root - INFO - 2% complete with block
+2021-03-27 14:06:18,844 - root - INFO - 3% complete with block
+2021-03-27 14:06:18,851 - root - INFO - 4% complete with block
+2021-03-27 14:06:18,854 - root - INFO - 5% complete with block
+2021-03-27 14:06:18,860 - root - INFO - 6% complete with block
+2021-03-27 14:06:18,867 - root - INFO - 7% complete with block
+2021-03-27 14:06:18,869 - root - INFO - 8% complete with block
+2021-03-27 14:06:18,874 - root - INFO - 9% complete with block
+2021-03-27 14:08:24,516 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:08:25,412 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:08:25,412 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:08:25,412 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:08:25,412 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:08:25,412 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:08:25,413 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:08:25,413 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:08:25,413 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:08:25,413 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:08:25,413 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:08:25,413 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:08:25,413 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:08:25,413 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:08:25,413 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:08:25,413 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:08:25,413 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:08:25,413 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:08:25,413 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:08:25,413 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:08:25,413 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:08:25,414 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:08:25,414 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:08:25,414 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:08:25,414 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:09:08,355 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 14:09:08,356 - root - INFO - ##########0.73 Minutes: Run Random Forest##########
+2021-03-27 14:09:08,356 - root - INFO - Random Forest Params:
+ Number of Trees=7
+ Max Features=log2
+ Max Depth=5
+2021-03-27 14:09:08,368 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:09:16,202 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:09:16,202 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 14:09:16,206 - root - INFO - ### Starting Block zip5
+2021-03-27 14:09:16,207 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:09:16,209 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:09:16,342 - root - INFO - 0% complete with block
+2021-03-27 14:09:16,356 - root - INFO - 1% complete with block
+2021-03-27 14:09:16,364 - root - INFO - 2% complete with block
+2021-03-27 14:09:16,369 - root - INFO - 3% complete with block
+2021-03-27 14:09:16,382 - root - INFO - 4% complete with block
+2021-03-27 14:09:16,384 - root - INFO - 5% complete with block
+2021-03-27 14:09:16,386 - root - INFO - 6% complete with block
+2021-03-27 14:09:16,397 - root - INFO - 7% complete with block
+2021-03-27 14:09:16,400 - root - INFO - 8% complete with block
+2021-03-27 14:09:16,401 - root - INFO - 9% complete with block
+2021-03-27 14:09:56,635 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:09:57,128 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:09:57,129 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:09:57,129 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:09:57,129 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:09:57,129 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:09:57,129 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:09:57,129 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:09:57,129 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:09:57,129 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:09:57,129 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:09:57,129 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:09:57,129 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:09:57,129 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:09:57,129 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:09:57,129 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:09:57,129 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:09:57,129 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:09:57,129 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:09:57,129 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:09:57,129 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:09:57,129 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:09:57,129 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:09:57,129 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:09:57,129 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:10:01,677 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:10:02,572 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:10:02,573 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:10:02,573 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:10:02,573 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:10:02,573 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:10:02,573 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:10:02,574 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:10:02,574 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:10:02,574 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:10:02,574 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:10:02,574 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:10:02,574 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:10:02,574 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:10:02,574 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:10:02,574 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:10:02,574 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:10:02,574 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:10:02,574 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:10:02,574 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:10:02,574 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:10:02,574 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:10:02,575 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:10:02,575 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:10:02,575 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:10:42,748 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 14:10:42,748 - root - INFO - ##########0.69 Minutes: Run Random Forest##########
+2021-03-27 14:10:42,748 - root - INFO - Random Forest Params:
+ Number of Trees=7
+ Max Features=log2
+ Max Depth=24
+2021-03-27 14:10:42,759 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:10:50,556 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:10:50,557 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 14:10:50,560 - root - INFO - ### Starting Block zip5
+2021-03-27 14:10:50,561 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:10:50,564 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:10:50,689 - root - INFO - 0% complete with block
+2021-03-27 14:10:50,703 - root - INFO - 1% complete with block
+2021-03-27 14:10:50,719 - root - INFO - 2% complete with block
+2021-03-27 14:13:34,118 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:13:35,015 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:13:35,016 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:13:35,016 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:13:35,016 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:13:35,016 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:13:35,016 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:13:35,016 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:13:35,016 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:13:35,016 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:13:35,016 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:13:35,016 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:13:35,016 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:13:35,016 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:13:35,017 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:13:35,017 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:13:35,017 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:13:35,017 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:13:35,017 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:13:35,017 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:13:35,017 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:13:35,017 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:13:35,017 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:13:35,017 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:13:35,017 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:14:14,934 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 14:14:14,934 - root - INFO - ##########0.68 Minutes: Run Random Forest##########
+2021-03-27 14:14:14,934 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=sqrt
+ Max Depth=13
+2021-03-27 14:14:14,936 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:14:23,979 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:14:23,979 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 14:14:23,982 - root - INFO - ### Starting Block zip5
+2021-03-27 14:14:23,983 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:14:23,986 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:14:24,113 - root - INFO - 0% complete with block
+2021-03-27 14:14:24,118 - root - INFO - 1% complete with block
+2021-03-27 14:14:24,124 - root - INFO - 2% complete with block
+2021-03-27 14:19:32,605 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 14:19:33,156 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 14:19:33,157 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 14:19:33,157 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 14:19:33,157 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 14:19:33,157 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 14:19:33,157 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 14:19:33,157 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 14:19:33,157 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 14:19:33,157 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 14:19:33,157 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 14:19:33,157 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 14:19:33,157 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 14:19:33,157 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 14:19:33,157 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 14:19:33,157 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 14:19:33,157 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 14:19:33,157 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 14:19:33,157 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 14:19:33,157 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 14:19:33,157 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 14:19:33,157 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 14:19:33,157 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 14:19:33,157 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 14:19:33,157 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 14:19:53,296 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 14:19:53,296 - root - INFO - ##########0.35 Minutes: Run Random Forest##########
+2021-03-27 14:19:53,296 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=log2
+ Max Depth=12
+2021-03-27 14:19:53,297 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 14:19:57,688 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 14:19:57,688 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 14:19:57,690 - root - INFO - ### Starting Block zip5
+2021-03-27 14:19:57,691 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 14:19:57,692 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 14:19:57,709 - root - INFO - 1% complete with block
+2021-03-27 14:19:57,709 - root - INFO - 0% complete with block
+2021-03-27 14:19:57,709 - root - INFO - 2% complete with block
+2021-03-27 14:19:57,726 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,727 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,729 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,732 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,733 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,733 - root - INFO - 3% complete with block
+2021-03-27 14:19:57,733 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,734 - root - INFO - 4% complete with block
+2021-03-27 14:19:57,734 - root - INFO - 5% complete with block
+2021-03-27 14:19:57,743 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,744 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,744 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,746 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,746 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,747 - root - INFO - 7% complete with block
+2021-03-27 14:19:57,747 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,747 - root - INFO - 6% complete with block
+2021-03-27 14:19:57,748 - root - INFO - 8% complete with block
+2021-03-27 14:19:57,757 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,758 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:57,759 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,760 - root - INFO - 9% complete with block
+2021-03-27 14:19:57,760 - root - INFO - 1 matches added in block
+2021-03-27 14:19:57,837 - root - INFO - 4 clerical review candidates added
+2021-03-27 14:19:57,840 - root - INFO - 4 matches added in block
+2021-03-27 14:19:57,971 - root - INFO - 7 clerical review candidates added
+2021-03-27 14:19:57,975 - root - INFO - 7 matches added in block
+2021-03-27 14:19:57,977 - root - INFO - Dumping remaining matches to DB
+2021-03-27 14:19:57,978 - root - INFO - Block zip5 Complete
+2021-03-27 14:19:57,978 - root - INFO - ### Completed Block zip5
+2021-03-27 14:19:57,978 - root - INFO - ### Starting Block zip3
+2021-03-27 14:19:57,979 - root - INFO - We have 4 blocks to run for zip3
+2021-03-27 14:19:57,983 - root - INFO - STARTING TO MATCH  FOR zip3
+2021-03-27 14:19:57,998 - root - INFO - 2% complete with block
+2021-03-27 14:19:57,998 - root - INFO - 0% complete with block
+2021-03-27 14:19:57,998 - root - INFO - 1% complete with block
+2021-03-27 14:19:58,001 - root - INFO - There were no valid matches to attempt for block 29
+2021-03-27 14:19:58,001 - root - INFO - There were no valid matches to attempt for block 829
+2021-03-27 14:19:58,001 - root - INFO - There were no valid matches to attempt for block 782
+2021-03-27 14:19:58,002 - root - INFO - 3% complete with block
+2021-03-27 14:19:58,004 - root - INFO - There were no valid matches to attempt for block 900
+2021-03-27 14:19:58,005 - root - INFO - Dumping remaining matches to DB
+2021-03-27 14:19:58,006 - root - INFO - Block zip3 Complete
+2021-03-27 14:19:58,007 - root - INFO - ### Completed Block zip3
+2021-03-27 14:19:58,007 - root - INFO - ### Starting Block state
+2021-03-27 14:19:58,007 - root - INFO - We have 3 blocks to run for state
+2021-03-27 14:19:58,011 - root - INFO - STARTING TO MATCH  FOR state
+2021-03-27 14:19:58,027 - root - INFO - 1% complete with block
+2021-03-27 14:19:58,027 - root - INFO - 2% complete with block
+2021-03-27 14:19:58,027 - root - INFO - 0% complete with block
+2021-03-27 14:19:58,030 - root - INFO - There were no valid matches to attempt for block CA
+2021-03-27 14:19:58,030 - root - INFO - There were no valid matches to attempt for block CO
+2021-03-27 14:19:58,043 - root - INFO - 1 clerical review candidates added
+2021-03-27 14:19:58,047 - root - INFO - 1 matches added in block
+2021-03-27 14:19:58,049 - root - INFO - Dumping remaining matches to DB
+2021-03-27 14:19:58,050 - root - INFO - Block state Complete
+2021-03-27 14:19:58,050 - root - INFO - ### Completed Block state
+2021-03-27 14:19:58,056 - root - INFO - Match Complete
+2021-03-27 14:19:58,057 - root - INFO - Matched 20 records for data1_test
+2021-03-27 14:19:58,057 - root - INFO - Matched 20 records for data2_test
+2021-03-27 14:19:58,057 - root - INFO - 20 Total matched pairs

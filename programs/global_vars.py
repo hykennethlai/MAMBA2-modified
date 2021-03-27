@@ -27,7 +27,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.feature_selection import chi2, SelectKBest, RFECV
-from sklearn.preprocessing import Imputer
+# from sklearn.preprocessing import Imputer
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.metrics import roc_curve
 from sklearn import metrics as metrics

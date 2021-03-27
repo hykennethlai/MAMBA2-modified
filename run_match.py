@@ -1,3 +1,4 @@
+import setup_envs_python
 from programs.global_vars import *
 from programs.create_db_helpers import *
 from programs.match_helpers import *

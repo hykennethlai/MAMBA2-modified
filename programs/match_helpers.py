@@ -350,10 +350,14 @@ def generate_logit(truthdat):
     X=pd.DataFrame(X)
     ##Save the means
     X.columns=X_hdrs
+    X = X.dropna(axis=1, how="all")
+    X_hdrs = X.columns
     X_means=X.mean().to_dict()
     X=X-X.mean()
     ##Impute the missing data
-    imp = IterativeImputer(max_iter=10, random_state=0)
+    from sklearn.impute import SimpleImputer
+    imp = SimpleImputer()
+    # imp = IterativeImputer(max_iter=10, random_state=0)
     ###fit the imputation
     imp.fit(X)
     X_imputed=imp.transform(X)
@@ -366,8 +370,8 @@ def generate_logit(truthdat):
         logger.info('WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:')
         for i in vif.to_dict('record'):
             if i['VIF'] > 5:
-                logger.info('{}: VIF = {}'.format(i['name'], i['VIF'].round(2)))
-    return {'type':'Logistic Regression', 'score':score, 'model':mod, 'means':X_means, 'imputer':imp}
+                logger.info('{}: VIF = {}'.format(i['name'], i['VIF']))
+    return {'type':'Logistic Regression', 'score':score, 'model':mod, 'means':X_means, 'imputer':imp, 'X_hdrs': X_hdrs}
 
 def generate_rf_mod(truthdat):
     '''
@@ -402,14 +406,16 @@ def generate_rf_mod(truthdat):
         if geo_distance_values['output']!='fail':
             X = np.hstack((X, geo_distance_values['output']))
             X_hdrs.extend(geo_distance_values['names'])
-    date_vars=[i for i in var_rec if i['match_type']=='date']
-    if len(date_vars) > 0:
-        date_values=create_scores(truthdat, 'date', date_vars)
-        X=np.hstack((X, exact_match_values['output']))
-        X_hdrs.extend(exact_match_values['names'])
+    # date_vars=[i for i in var_rec if i['match_type']=='date']
+    # if len(date_vars) > 0:
+    #     date_values=create_scores(truthdat, 'date', date_vars)
+    #     X=np.hstack((X, exact_match_values['output']))
+    #     X_hdrs.extend(exact_match_values['names'])
     ##Impute the missing data
     imp = IterativeImputer(max_iter=10, random_state=0)
     ###fit the imputation
+    X = pd.DataFrame(X).dropna(axis=1, how="all")
+    X_hdrs = X.columns
     imp.fit(X)
     X_imputed = imp.transform(X)
     ###making the dependent variable array
@@ -438,7 +444,7 @@ def generate_rf_mod(truthdat):
     #if mambalite == False:
     logger.info('Random Forest Completed.  Score {}'.format(score))
     rf_mod = runRFClassifier(y, X_imputed, trees, features_per_tree, max_depth)
-    return {'type':'Random Forest', 'score':score, 'model':rf_mod, 'imputer':imp}
+    return {'type':'Random Forest', 'score':score, 'model':rf_mod, 'imputer':imp, "X_hdrs": X_hdrs}
 
 def generate_ada_boost(truthdat):
     '''
@@ -470,6 +476,8 @@ def generate_ada_boost(truthdat):
     ##Impute the missing data
     imp = IterativeImputer(max_iter=10, random_state=0)
     ###fit the imputation
+    X = pd.DataFrame(X).dropna(axis=1, how="all")
+    X_hdrs = X.columns
     imp.fit(X)
     X_imputed = imp.transform(X)
     ###making the dependent variable array
@@ -501,7 +509,7 @@ def generate_ada_boost(truthdat):
     ada_mod = AdaBoostClassifier(algorithm=algo, n_estimators=trees)
     logger.info('AdaBoost Complete.  Score={}'.format(score))
     ###Note for when you return--you need to change the predict function to do cross_val_predict
-    return {'type': 'AdaBoost', 'score': score, 'model': ada_mod, 'imputer':imp}
+    return {'type': 'AdaBoost', 'score': score, 'model': ada_mod, 'imputer':imp, "X_hdrs": X_hdrs}
 
 def generate_svn_mod(truthdat):
     '''
@@ -641,12 +649,14 @@ def match_fun(arg):
             X = np.hstack((X, exact_match_values['output']))
             X_hdrs.extend(exact_match_values['names'])
         ###Imput the X values
+        X = pd.DataFrame(data=X, columns=X_hdrs)[arg['model']['X_hdrs']]
+        X_hdrs = X.columns
         X_imputed=arg['model']['imputer'].transform(X)
         ###Mean Center
         if arg['model']['type']=='Logistic Regression':
             X_imputed=pd.DataFrame(X_imputed, columns=X_hdrs)-arg['model']['means']
             X_imputed=np.array(X_imputed)
-        myprediction=probsfunc(arg['model'].predict_proba(X_imputed))
+        myprediction=probsfunc(arg['model']['model'].predict_proba(X_imputed))
         ####don't need the scores anymore
         del X
         del X_imputed

@@ -1489,3 +1489,226 @@
 2021-03-27 14:19:58,057 - root - INFO - Matched 20 records for data1_test
 2021-03-27 14:19:58,057 - root - INFO - Matched 20 records for data2_test
 2021-03-27 14:19:58,057 - root - INFO - 20 Total matched pairs
+2021-03-27 22:04:28,376 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 22:04:28,861 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 22:04:28,861 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 22:04:28,861 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 22:04:28,861 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 22:04:28,861 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 22:04:28,861 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 22:04:28,861 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 22:04:28,861 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 22:04:28,861 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 22:04:28,861 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 22:04:28,861 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 22:04:28,861 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 22:04:28,861 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 22:04:28,861 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 22:04:28,861 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 22:04:28,861 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 22:04:28,861 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 22:04:28,861 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 22:04:28,861 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 22:04:28,861 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 22:04:28,861 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 22:04:28,861 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 22:04:28,861 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 22:04:28,861 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 22:04:49,196 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 22:04:49,196 - root - INFO - ##########0.35 Minutes: Run Random Forest##########
+2021-03-27 22:04:49,196 - root - INFO - Random Forest Params:
+ Number of Trees=1
+ Max Features=log2
+ Max Depth=9
+2021-03-27 22:04:49,197 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 22:04:54,408 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 22:04:54,408 - root - INFO - Selected the Random Forest Model, with the score of 1.0
+2021-03-27 22:04:54,410 - root - INFO - ### Starting Block zip5
+2021-03-27 22:04:54,411 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 22:04:54,412 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 22:04:54,440 - root - INFO - 0% complete with block
+2021-03-27 22:04:54,442 - root - INFO - 1% complete with block
+2021-03-27 22:04:54,446 - root - INFO - 2% complete with block
+2021-03-27 22:04:54,458 - root - INFO - 3% complete with block
+2021-03-27 22:04:54,461 - root - INFO - 4% complete with block
+2021-03-27 22:04:54,463 - root - INFO - 5% complete with block
+2021-03-27 22:04:54,468 - root - INFO - 6% complete with block
+2021-03-27 22:04:54,471 - root - INFO - 7% complete with block
+2021-03-27 22:04:54,474 - root - INFO - 8% complete with block
+2021-03-27 22:04:54,477 - root - INFO - 9% complete with block
+2021-03-27 22:05:43,366 - root - INFO - 
+
+######CREATE LOGISTIC REGRESSION MODEL ######
+
+
+2021-03-27 22:05:44,280 - root - INFO - WARNING, SOME VARIABLES HAVE HIGH COLINEARITY (EVEN WITH MEAN-CENTERING).  RECONSIDER USING THE LOGIT. VARIABLES WITH ISSUES ARE:
+2021-03-27 22:05:44,280 - root - INFO - address_jaro: VIF = 39.15020632798929
+2021-03-27 22:05:44,280 - root - INFO - address_bagdist: VIF = 41.009700856288426
+2021-03-27 22:05:44,280 - root - INFO - address_seqmatch: VIF = 49.26044282047293
+2021-03-27 22:05:44,281 - root - INFO - address_qgram2: VIF = 375.02910120891585
+2021-03-27 22:05:44,281 - root - INFO - address_qgram3: VIF = 377.2170969503688
+2021-03-27 22:05:44,281 - root - INFO - address_posqgram3: VIF = 103.59089795296093
+2021-03-27 22:05:44,281 - root - INFO - address_editdist: VIF = 91.5887756244937
+2021-03-27 22:05:44,281 - root - INFO - address_lcs2: VIF = 156.88909025315573
+2021-03-27 22:05:44,281 - root - INFO - address_lcs3: VIF = 12003.488838068684
+2021-03-27 22:05:44,281 - root - INFO - address_charhistogram: VIF = 17.028003396580484
+2021-03-27 22:05:44,281 - root - INFO - address_swdist: VIF = 11497.37043578924
+2021-03-27 22:05:44,281 - root - INFO - name_jaro: VIF = 28.78029756766366
+2021-03-27 22:05:44,281 - root - INFO - name_bagdist: VIF = 16.620976025610066
+2021-03-27 22:05:44,281 - root - INFO - name_seqmatch: VIF = 86.16614804708624
+2021-03-27 22:05:44,281 - root - INFO - name_qgram2: VIF = 474.9037677314519
+2021-03-27 22:05:44,281 - root - INFO - name_qgram3: VIF = 337.4281060382592
+2021-03-27 22:05:44,281 - root - INFO - name_posqgram3: VIF = 82.69206144857128
+2021-03-27 22:05:44,281 - root - INFO - name_editdist: VIF = 94.42244518850536
+2021-03-27 22:05:44,282 - root - INFO - name_lcs2: VIF = 179.20392405548228
+2021-03-27 22:05:44,282 - root - INFO - name_lcs3: VIF = 590.53811177058
+2021-03-27 22:05:44,282 - root - INFO - name_charhistogram: VIF = 13.820563033791615
+2021-03-27 22:05:44,282 - root - INFO - name_swdist: VIF = 637.9335043456999
+2021-03-27 22:05:44,282 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 22:06:24,886 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 22:06:24,886 - root - INFO - ##########0.69 Minutes: Run Random Forest##########
+2021-03-27 22:06:24,886 - root - INFO - Random Forest Params:
+ Number of Trees=4
+ Max Features=log2
+ Max Depth=16
+2021-03-27 22:06:24,893 - root - INFO - 
+
+######CREATE ADABoost MODEL ######
+
+
+2021-03-27 22:06:33,866 - root - INFO - AdaBoost Complete.  Score=0.9800000000000001
+2021-03-27 22:06:33,866 - root - INFO - Selected the Logistic Regression Model, with the score of 1.0
+2021-03-27 22:06:33,870 - root - INFO - ### Starting Block zip5
+2021-03-27 22:06:33,870 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 22:06:33,873 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 22:06:34,025 - root - INFO - 0% complete with block
+2021-03-27 22:06:34,030 - root - INFO - 1% complete with block
+2021-03-27 22:06:34,030 - root - INFO - 2% complete with block
+2021-03-27 22:10:52,733 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 22:11:33,125 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 22:11:33,125 - root - INFO - ##########0.68 Minutes: Run Random Forest##########
+2021-03-27 22:11:33,125 - root - INFO - Random Forest Params:
+ Number of Trees=3
+ Max Features=sqrt
+ Max Depth=14
+2021-03-27 22:11:33,133 - root - INFO - ### Starting Block zip5
+2021-03-27 22:11:33,134 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 22:11:33,136 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 22:11:33,267 - root - INFO - 0% complete with block
+2021-03-27 22:11:33,270 - root - INFO - 1% complete with block
+2021-03-27 22:11:33,277 - root - INFO - 2% complete with block
+2021-03-27 22:15:18,772 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 22:16:00,163 - root - INFO - Random Forest Completed.  Score 1.0
+2021-03-27 22:16:00,163 - root - INFO - ##########0.69 Minutes: Run Random Forest##########
+2021-03-27 22:16:00,163 - root - INFO - Random Forest Params:
+ Number of Trees=5
+ Max Features=log2
+ Max Depth=17
+2021-03-27 22:16:00,174 - root - INFO - ### Starting Block zip5
+2021-03-27 22:16:00,175 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 22:16:00,177 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 22:16:00,309 - root - INFO - 0% complete with block
+2021-03-27 22:16:00,313 - root - INFO - 1% complete with block
+2021-03-27 22:16:00,318 - root - INFO - 2% complete with block
+2021-03-27 22:18:35,621 - root - INFO - 
+
+######CREATE RANDOM FOREST MODEL ######
+
+
+2021-03-27 22:18:54,960 - root - INFO - Random Forest Completed.  Score 0.99
+2021-03-27 22:18:54,960 - root - INFO - ##########0.32 Minutes: Run Random Forest##########
+2021-03-27 22:18:54,960 - root - INFO - Random Forest Params:
+ Number of Trees=3
+ Max Features=sqrt
+ Max Depth=9
+2021-03-27 22:18:54,964 - root - INFO - ### Starting Block zip5
+2021-03-27 22:18:54,964 - root - INFO - We have 10 blocks to run for zip5
+2021-03-27 22:18:54,965 - root - INFO - STARTING TO MATCH  FOR zip5
+2021-03-27 22:18:54,984 - root - INFO - 0% complete with block
+2021-03-27 22:18:54,986 - root - INFO - 1% complete with block
+2021-03-27 22:18:54,987 - root - INFO - 2% complete with block
+2021-03-27 22:18:55,002 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,003 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,004 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,008 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,009 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,010 - root - INFO - 3% complete with block
+2021-03-27 22:18:55,011 - root - INFO - 4% complete with block
+2021-03-27 22:18:55,012 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,014 - root - INFO - 5% complete with block
+2021-03-27 22:18:55,021 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,022 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,024 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,025 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,025 - root - INFO - 6% complete with block
+2021-03-27 22:18:55,026 - root - INFO - 7% complete with block
+2021-03-27 22:18:55,034 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,035 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,036 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,037 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,037 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,038 - root - INFO - 8% complete with block
+2021-03-27 22:18:55,039 - root - INFO - 9% complete with block
+2021-03-27 22:18:55,040 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,126 - root - INFO - 4 clerical review candidates added
+2021-03-27 22:18:55,129 - root - INFO - 4 matches added in block
+2021-03-27 22:18:55,250 - root - INFO - 7 clerical review candidates added
+2021-03-27 22:18:55,253 - root - INFO - 7 matches added in block
+2021-03-27 22:18:55,254 - root - INFO - Dumping remaining matches to DB
+2021-03-27 22:18:55,256 - root - INFO - Block zip5 Complete
+2021-03-27 22:18:55,256 - root - INFO - ### Completed Block zip5
+2021-03-27 22:18:55,256 - root - INFO - ### Starting Block zip3
+2021-03-27 22:18:55,256 - root - INFO - We have 4 blocks to run for zip3
+2021-03-27 22:18:55,260 - root - INFO - STARTING TO MATCH  FOR zip3
+2021-03-27 22:18:55,279 - root - INFO - 0% complete with block
+2021-03-27 22:18:55,280 - root - INFO - 1% complete with block
+2021-03-27 22:18:55,281 - root - INFO - There were no valid matches to attempt for block 29
+2021-03-27 22:18:55,281 - root - INFO - 2% complete with block
+2021-03-27 22:18:55,282 - root - INFO - There were no valid matches to attempt for block 782
+2021-03-27 22:18:55,283 - root - INFO - 3% complete with block
+2021-03-27 22:18:55,284 - root - INFO - There were no valid matches to attempt for block 829
+2021-03-27 22:18:55,284 - root - INFO - There were no valid matches to attempt for block 900
+2021-03-27 22:18:55,285 - root - INFO - Dumping remaining matches to DB
+2021-03-27 22:18:55,286 - root - INFO - Block zip3 Complete
+2021-03-27 22:18:55,286 - root - INFO - ### Completed Block zip3
+2021-03-27 22:18:55,286 - root - INFO - ### Starting Block state
+2021-03-27 22:18:55,287 - root - INFO - We have 3 blocks to run for state
+2021-03-27 22:18:55,290 - root - INFO - STARTING TO MATCH  FOR state
+2021-03-27 22:18:55,307 - root - INFO - 0% complete with block
+2021-03-27 22:18:55,309 - root - INFO - 1% complete with block
+2021-03-27 22:18:55,310 - root - INFO - There were no valid matches to attempt for block CA
+2021-03-27 22:18:55,311 - root - INFO - There were no valid matches to attempt for block CO
+2021-03-27 22:18:55,311 - root - INFO - 2% complete with block
+2021-03-27 22:18:55,326 - root - INFO - 1 clerical review candidates added
+2021-03-27 22:18:55,330 - root - INFO - 1 matches added in block
+2021-03-27 22:18:55,349 - root - INFO - Dumping remaining matches to DB
+2021-03-27 22:18:55,351 - root - INFO - Block state Complete
+2021-03-27 22:18:55,351 - root - INFO - ### Completed Block state
+2021-03-27 22:18:55,358 - root - INFO - Match Complete
+2021-03-27 22:18:55,358 - root - INFO - Matched 20 records for data1_test
+2021-03-27 22:18:55,358 - root - INFO - Matched 20 records for data2_test
+2021-03-27 22:18:55,358 - root - INFO - 20 Total matched pairs

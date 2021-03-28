@@ -347,11 +347,9 @@ def generate_logit(truthdat):
             X_hdrs.extend(geo_distance_values['names'])
     ###making the dependent variable array
     ##Mean-Center
-    X=pd.DataFrame(X)
-    ##Save the means
-    X.columns=X_hdrs
-    X = X.dropna(axis=1, how="all")
+    X=pd.DataFrame(X, columns=X_hdrs).dropna(axis=1, how="all")
     X_hdrs = X.columns
+    ##Save the means
     X_means=X.mean().to_dict()
     X=X-X.mean()
     ##Impute the missing data
@@ -414,7 +412,7 @@ def generate_rf_mod(truthdat):
     ##Impute the missing data
     imp = IterativeImputer(max_iter=10, random_state=0)
     ###fit the imputation
-    X = pd.DataFrame(X).dropna(axis=1, how="all")
+    X = pd.DataFrame(X, columns=X_hdrs).dropna(axis=1, how="all")
     X_hdrs = X.columns
     imp.fit(X)
     X_imputed = imp.transform(X)
@@ -476,7 +474,7 @@ def generate_ada_boost(truthdat):
     ##Impute the missing data
     imp = IterativeImputer(max_iter=10, random_state=0)
     ###fit the imputation
-    X = pd.DataFrame(X).dropna(axis=1, how="all")
+    X = pd.DataFrame(X, columns=X_hdrs).dropna(axis=1, how="all")
     X_hdrs = X.columns
     imp.fit(X)
     X_imputed = imp.transform(X)

@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3707c47-ab65-43c7-ad1d-4707fc594255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MAMBA2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAMBA2.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/terminal.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mamba_db" beforeDir="false" afterPath="$PROJECT_DIR$/mamba_db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mamba_db-journal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mamba_test_log" beforeDir="false" afterPath="$PROJECT_DIR$/mamba_test_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/create_db_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/create_db_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/global_vars.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/global_vars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/all_matches_2021_03_27.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/all_matches_2021_03_27.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/clerical_review_candidates_2021_03_27.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/clerical_review_candidates_2021_03_27.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programs/match_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/match_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_match.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup_envs_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup_envs_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$MBA2 User Guide.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +133,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -346,6 +340,7 @@
       <workItem from="1612541900595" duration="626000" />
       <workItem from="1616873687004" duration="6105000" />
       <workItem from="1616879928084" duration="614000" />
+      <workItem from="1616907751545" duration="1039000" />
     </task>
     <servers />
   </component>
@@ -421,20 +416,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/programs/match_helpers.py</url>
-          <line>651</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/programs/match_helpers.py</url>
-          <line>658</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="arg['model']['imputer'].transform([[1 for _ in range(26)]])" language="Python" />
@@ -445,7 +426,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MAMBA2$run_match.coverage" NAME="run_match Coverage Results" MODIFIED="1616879967602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MAMBA2$run_match.coverage" NAME="run_match Coverage Results" MODIFIED="1616908714674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Backend/connect_sqlite.py">

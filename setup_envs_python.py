@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 import os
-PROJ_DIR = "/Users/kennethlai/Desktop/MAMBA2"
+PROJ_DIR = "/Users/kennethlai/Dropbox/Work/environmentalBunching/codePYTHON/MAMBA2"
 os.chdir(PROJ_DIR)
 os.environ['data1_name']='data1_test'  ###First dataset name
 os.environ['data2_name']='data2_test'  ###Second dataset name

@@ -3,3 +3,4 @@ venv/
 /data/harness_data.csv
 /data/harness_data.csv.gz
 programs/deduplication_reproduction.py
+*.tar.gz
